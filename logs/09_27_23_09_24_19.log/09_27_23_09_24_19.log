@@ -1,0 +1,6 @@
+[2023-09-27 09:24:20,674] 187 werkzeug - WARNING -  * Debugger is active!
+[2023-09-27 09:24:20,679] 187 werkzeug - INFO -  * Debugger PIN: 112-998-244
+[2023-09-27 09:24:38,155] 187 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2023 09:24:38] "GET / HTTP/1.1" 200 -
+[2023-09-27 09:25:12,032] 187 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2023 09:25:12] "GET /predict HTTP/1.1" 200 -
+[2023-09-27 09:25:52,720] 66 root - INFO - Dataframe gathered
+[2023-09-27 09:25:53,017] 187 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2023 09:25:53] "POST /predict HTTP/1.1" 200 -

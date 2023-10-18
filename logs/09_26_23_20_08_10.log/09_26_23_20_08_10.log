@@ -1,0 +1,26 @@
+[2023-09-26 20:08:11,556] 24 root - INFO - Data Ingestion methods Starts
+[2023-09-26 20:08:11,685] 27 root - INFO - Data read as pandas data frame
+[2023-09-26 20:08:12,527] 30 root - INFO - train test split
+[2023-09-26 20:08:13,574] 79 root - INFO - Read train and test data complete
+[2023-09-26 20:08:13,580] 80 root - INFO - Train Dataframe Head :
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0   58463   0.72      Ideal     D     SI1   61.8   56.0  5.75  5.79  3.56   2773
+1  142937   1.05    Premium     H     SI2   62.8   56.0  6.47  6.50  4.07   4060
+2  156506   0.32      Ideal     E     VS2   61.7   56.0  4.40  4.43  2.73    702
+3   91616   0.31      Ideal     D     VS2   62.0   55.0  4.39  4.37  2.72    942
+4   20499   0.40  Very Good     H     VS1   62.7   57.0  4.68  4.71  2.94    818
+[2023-09-26 20:08:13,585] 81 root - INFO - test Dataframe Head :
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0   16857   0.54      Ideal     H     VS1   61.7   56.0  5.25  5.22  3.23   1637
+1  109086   1.06      Ideal     E     SI2   62.3   57.0  6.53  6.51  4.06   4441
+2  184166   0.71  Very Good     E     VS2   64.2   62.0  5.63  5.63  3.62   2990
+3   88420   0.71      Ideal     D     VS2   62.3   57.0  5.68  5.65  3.53   3253
+4  133617   0.31      Ideal     F     VS2   61.2   56.0  4.38  4.41  2.69    600
+[2023-09-26 20:08:13,585] 83 root - INFO - Obtaining preprocessing object
+[2023-09-26 20:08:13,585] 27 root - INFO - Data Transformation initiated
+[2023-09-26 20:08:13,585] 38 root - INFO - pipeline initiated
+[2023-09-26 20:08:13,837] 101 root - INFO - Applying preprocessing object on training and test datasets
+[2023-09-26 20:08:13,844] 111 root - INFO - Preprocessor pickle file saved
+[2023-09-26 20:08:13,848] 26 root - INFO - Splitting Dependent and Independent variable from train and test data
+[2023-09-26 20:08:15,519] 43 root - INFO - model Report : {'LinearRegression': 0.9112677505818135, 'Lasso': 0.9116315369820749, 'Ridge': 0.9112666218133427, 'ElasticNet': 0.833870435612921} 
+[2023-09-26 20:08:15,520] 56 root - INFO - Best model Found , Model Name : Lasso, R2 score : 0.9116315369820749
